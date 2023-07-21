@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap");
+
+body {
+  background-color: #b8a89f;
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  
+  /*border: solid;*/
+}
+
+.centered {
+  display: flex;
+  flex: 1;
+  
+  /*border: dotted;
+  border-color: green;*/
+}
+
+.column {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  
+  /*border: dashed;
+  border-color: red;*/
+}
+
+.left-column {
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-column {
+  border-left: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0px;
+}
+
+/*.project-item {
+  line-height: 1;
+}*/
+
+.right-column-list {
+  /*margin-bottom: auto;*/
+  list-style-type: none;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+.right-column-item {
+  margin-bottom: 1em;
+}
+
+.bottom {
+  margin-top: 0px;
+  margin-bottom: 0em;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+/*li:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}*/
+
+/*.project-list:hover .project-item:not(:hover) {
+  color: #fff;
+  opacity: 0.25;
+}
+
+.services:hover .service:not(:hover) {
+  color: #fff;
+  opacity: 0.25;
+}
+*/
+
+
+/*.project-item {
+  height: 26px;
+}*/
+
+/* Additional styles for the footer */
+.footer {
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  left: 20px;
+}
+
+.footer-text-left {
+  text-align: left;
+}
+
+.footer-text-right {
+  text-align: right;
+}
