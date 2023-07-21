@@ -103,7 +103,8 @@ container.addEventListener("mouseover", (event) => {
             item.style.opacity = ".25";
           }
           break;
-          
+
+        case "built":
         case "renovation":
         case "in progress":
           if (selectedType === "architecture") {
