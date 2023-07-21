@@ -95,7 +95,15 @@ container.addEventListener("mouseover", (event) => {
             item.style.opacity = ".25";
           }
           break;
-
+          
+        case "retail":
+          if (selectedType === "architecture") {
+            item.style.opacity = "1";
+          } else {
+            item.style.opacity = ".25";
+          }
+          break;
+          
         case "renovation":
         case "in progress":
           if (selectedType === "architecture") {
