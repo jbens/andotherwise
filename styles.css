@@ -80,6 +80,10 @@ a:link {
   color: white;
 }
 
+a:visited {
+  color: #A9A9A9;
+}
+
 a:hover {
   font-style: italic;
 }
